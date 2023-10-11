@@ -45,13 +45,13 @@ const Variable = () => {
       </div>
       {showResults ? (
         <div className="w-full flex flex-col justify-center items-center">
-          <div className="w-1/2 table-container">
+          <div className="w-3/4 table-container">
             <table className="table-fixed w-full text-white">
               <thead>
                 <tr className="bg-gray-800">
-                  <th className="w-1/2 border border-gray-600 py-2 px-4">Question</th>
-                  <th className="w-1/4 border border-gray-600 py-2 px-4">User Answer</th>
-                  <th className="w-1/4 border border-gray-600 py-2 px-4">Result</th>
+                  <th className="w-28 md:w-44 lg:w-80 border border-gray-600 py-2 px-4">Question</th>
+                  <th className="w-20 md:w-28 lg:w-36 border border-gray-600 py-2 px-4">User Answer</th>
+                  <th className="w-24 md:w-28 lg:w-36 border border-gray-600 py-2 px-4">Result</th>
                 </tr>
               </thead>
               <tbody>
