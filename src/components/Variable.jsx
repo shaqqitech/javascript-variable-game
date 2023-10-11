@@ -40,8 +40,8 @@ const Variable = () => {
   return (
     <div>
       <div className="w-full text-center mb-7 text-white">
-        <h1 className="font-semibold text-3xl">Var vs Let vs Const:</h1>
-        <p className="font-semibold text-2xl">A Quiz Game</p>
+        <h1 className="font-semibold text-3xl">Var <span className=" text-gray-200">/</span> Let <span className=" text-gray-200">/</span> Const:</h1>
+        <p className="font-semibold text-xl text-gray-400">A Quiz Game</p>
       </div>
       {showResults ? (
         <div className="w-full flex flex-col justify-center items-center">
